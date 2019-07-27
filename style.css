@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+
+}
+body{
+   
+    background-image: url(Abstract%20Shapes.jpg);
+ 
+}
+#window{
+/*    display:contents;*/
+    height:auto;
+    background-color: red;
+
+}
+#startBar{
+    height: 40px;
+    background-color:rgba(0,0,0,1);
+    width: 100%;
+    position:absolute;
+    z-index: +5;
+    color: white;
+    display:flex;
+    bottom: 0px;
+    margin:auto 0px 0px 0px;
+}
+#start{
+    height: 40px;
+    z-index: +5;
+    display:flex;
+    background-color:black;
+}
+#startBtn{
+    display: block;
+    margin:auto 0px;
+    float: left;
+    width: 50px;
+    text-align: center
+}
+#start:hover,#startBtn :hover{
+    background-color:darkred;
+    cursor: pointer
+    
+}
+#startImg{
+
+    
+}
+.imgBtn{
+    width: 100px;
+    margin: 5px;
+    padding: 2px;
+}
+.imgBtn:hover{
+   background-color: white;
+}
+.imgbt{
+    width: 50px;
+    padding: 1px;
+    margin: 1px
+}
+.imgbt:hover{
+    background: white;
+}
+.hide{
+    display:none; 
+}
+#startMenu{
+    height: auto;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    bottom: 40px;
+    height: 70%;
+    width:300px;
+    display:flex;
+    box-shadow: 5px 5px 5px black;
+    overflow-y:hidden;
+}
+#startMenuContent{
+    background-color:;
+    width: 100%;
+}
+#startContent{
+    float: left;
+    width: 53px;
+    height: 96%;
+    margin: 10px 5px;
+    position: relative;
+    text-align: left; 
+}
+#startContent:hover{
+    background-color:rgba(255,255,255,0.1)
+}
+#login{
+    color: white;
+    margin:30px  auto;
+/*    background-color:rgba(0,0,0,0.5);*/
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+.v-input{
+    height: 25px;
+    border: none;
+    padding: 2px;
+    box-shadow: 1px 2px 2px black;
+    margin: 5px;
+}
+.v-btn{
+    background-color: white;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: 90px;
+    padding: 5px;
+    box-shadow: 1px 2px 2px black;
+}
+.v-btn:hover{
+    background-color: darkred;
+    color: white;
+}
+.v-btn:active{
+    background-color: black;
+    color: white;
+}
+#logicon{
+   border-radius: 500px;
+    background-color: rgba(255,255,255,0.1);
+    height: 300px;
+    width: 320px;
+    box-shadow: 1px 2px 2px black;
+    
+     }
+#loginContent{
+    margin:auto;
+}
