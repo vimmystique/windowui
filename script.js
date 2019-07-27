@@ -3,7 +3,7 @@ let user = ['idiot','joshua', 'dan', 'auge'];
 const username = document.querySelector('#username');
 const startup = document.querySelector('#starter');
 const signin = document.querySelector('#login');
-const logOut = document.querySelector('#logOut');
+const wrong = document.querySelector('#wrong');
 
 function start(){
     trigger.classList.toggle('hide');
@@ -23,7 +23,7 @@ function login(){
         signin.classList.add('hide');
 
     } else {
-        console.log('user not available');
+        wrong.textContent = 'USERNAME NOT FOUND!!!'
     }
 
 }
